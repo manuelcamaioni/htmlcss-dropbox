@@ -21,6 +21,15 @@ a{
     text-decoration: none;
 }
 
+.buy-now a{
+    color:#0061ff;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+}
+
 /* UTILITY */
 .container{
     width: 80%;
@@ -29,8 +38,9 @@ a{
 }
 
 .container2{
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
+    margin-top: 100px;
 }
 
 .flex{
@@ -62,6 +72,10 @@ a{
 
 .highlight{
     border: 2px solid black;
+}
+
+.text-gray{
+    color: rgb(170, 170, 170);
 }
 
 /* GENERAL RULES */
@@ -152,17 +166,48 @@ main .first-section{
     left: 0;
 }
 
+.subscription-section h2{
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
 .subscriptions{
     width: 100%;
-    height: 1000px;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
+    /* height: 1000px; */
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.singolo, .team, .azienda{
+    flex-basis: calc(100% / 3 - 20px);
+    border: 1px solid black;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.info-subscription{
+    padding: 2rem 0;
+}
+
+.subscriptions h3{
+    padding-top: 1rem;
+}
+
+.type-subscription{
+    padding: .5rem 0;
+    text-align: center;
+    border-bottom: 1px solid rgb(170, 170, 170);
 }
 
 .enterprise{
     width: 100%;
     height: 200px;
     margin-bottom: 50px;
+}
+
+.enterprise .info-subscription, .enterprise .call-to-action{
+    flex-basis: 50%;
+    padding: 0;
+    border: 1px solid magenta
 }
 
 .partner-container{
@@ -273,7 +318,6 @@ footer .container{
 }
 
 .lists-container ul{
-    list-style-type: none;
     flex-basis: calc(100% / 5);
     border: 1px solid grey;
 }
