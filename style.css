@@ -23,8 +23,9 @@ a{
 
 /* UTILITY */
 .container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
+    height: 100%;
 }
 
 .flex{
@@ -36,7 +37,7 @@ a{
 }
 
 .lightblue-bg{
-    background-color: #9acfe9;
+    background-color: #b4d0e7;
 }
 
 .blue-button{
@@ -81,3 +82,34 @@ div.logo-container{
     object-fit: contain;
 }
 
+/* MAIN RULES */
+
+main .first-section{
+    width: 100%;
+    height: 600px;
+}
+
+.first-section .title-container{
+    width: 100%;
+    padding-right: 1rem;
+    height: 30%;
+    border: 2px solid red;
+}
+
+.first-section .jumbo-paragraph-container{
+    width: 100%;
+    height: 70%;
+    border: 2px solid red;
+}
+
+.jumbo-paragraph-container .paragraph-container{
+    flex-basis: 40%;
+    height: 100%;
+    border: 2px solid magenta;
+}
+
+.jumbo-paragraph-container .jumbo-container{
+    flex-basis: 60%;
+    height: 100%;
+    border: 2px solid magenta;
+}
