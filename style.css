@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* UTILITY */
+.button{
+    border: none;
+}
+
+.lightblue-bg{
+    background-color: #9acfe9;
+}
+
+.blue-button{
+    color: white;
+    background-color: #0061ff;
+}
+
+.white-button{
+    color: black;
+    background-color: white;
+}
