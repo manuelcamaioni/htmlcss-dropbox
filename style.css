@@ -135,6 +135,8 @@ main .first-section{
 .partner-container{
     width: 100%;
     height: 500px;
+
+    margin-bottom: 50px;
 }
 
 .partner-image-container{
@@ -152,4 +154,23 @@ main .first-section{
     border: 2px solid red;
 }
 
+.operations{
+    width: 100%;
 
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+}
+
+.operation{
+    flex-basis: calc(100% / 3);
+
+    height: 300px;
+
+    border: 2px solid magenta;
+}
+
+.dropbox-business{
+    width: 100%;
+
+}
