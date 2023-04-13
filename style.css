@@ -61,8 +61,14 @@ a{
     justify-content: center;
 }
 
+.nav-area:last-child div{
+    flex-basis: auto;
+    padding: 0 1.5rem;
+}
+
 .logo-container img{
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
+
