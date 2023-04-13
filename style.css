@@ -172,5 +172,33 @@ main .first-section{
 
 .dropbox-business{
     width: 100%;
-
 }
+
+.partners-logos{
+    width: 100%;
+    height: 500px;
+}
+
+.logos-container{
+   flex-basis: calc(100% / 3);
+   flex-wrap: wrap;
+    height: 100%;
+
+
+    border: 2px solid red;
+}
+
+.logo{
+    flex-basis: calc(100% / 2);
+    height: 50%;
+
+    border: 2px solid greenyellow;
+}
+
+.free-trial{
+    width: 100%;
+    padding: 5rem 0;
+    justify-content: space-around;
+}
+
+
