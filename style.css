@@ -8,7 +8,24 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+nav{
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+
+    font-size: .8rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
 /* UTILITY */
+.flex{
+    display: flex
+}
+
 .button{
     border: none;
 }
@@ -25,4 +42,27 @@ body{
 .white-button{
     color: black;
     background-color: white;
+}
+
+.highlight{
+    border: 2px solid black;
+}
+
+/* GENERAL RULES */
+.nav-area{
+    height: 100%;
+}
+
+.nav-area div{
+    height: 100%;
+    flex-basis: 25%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
