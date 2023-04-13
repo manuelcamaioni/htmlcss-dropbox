@@ -23,7 +23,7 @@ a{
 
 /* UTILITY */
 .container{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     height: 100%;
 }
@@ -54,6 +54,10 @@ a{
 .white-button{
     color: black;
     background-color: white;
+}
+
+.lightblue-button{
+    background-color: #b4d0e7;
 }
 
 .highlight{
@@ -96,27 +100,56 @@ main .first-section{
 
 .first-section .title-container{
     width: 100%;
-    padding-right: 1rem;
-    height: 30%;
-    border: 2px solid red;
+    
+    /* height: 30%; */
+    /* border: 2px solid red; */
 }
 
+.title-container h1{
+    font-size: 3rem;
+    
+    padding: 1rem 5rem 1rem 0;
+}
 .first-section .jumbo-paragraph-container{
     width: 100%;
     height: 70%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .jumbo-paragraph-container .paragraph-container{
     flex-basis: 40%;
     height: 100%;
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
 }
 
-.jumbo-paragraph-container .jumbo-container{
+/* .jumbo-paragraph-container .jumbo-container{
+
     flex-basis: 60%;
     height: 100%;
     border: 2px solid magenta;
+} */
+
+.jumbo-container img{
+    flex-basis: 60%;
+    
+}
+
+.paragraph-container p{
+    margin-bottom: 2rem;
+}
+
+.paragraph-container .blue-button{
+    margin-bottom: 1rem;
+}
+
+.first-section{
+    position: relative;
+}
+
+.paragraph-container i{
+    position: absolute;
+    
+    left: 0;
 }
 
 .subscriptions{
