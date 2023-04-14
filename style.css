@@ -79,6 +79,9 @@ ul{
     color: rgb(170, 170, 170);
 }
 
+.padding-left{
+    padding-left: 1rem;
+}
 /* GENERAL RULES */
 .nav-area{
     height: 100%;
@@ -184,7 +187,6 @@ main .first-section{
 .singolo, .team, .azienda{
     flex-basis: calc(100% / 3 - 20px);
     border: 1px solid rgb(170, 170, 170);
-    padding: 0 1rem 1rem 1rem;
 }
 
 .info-subscription{
@@ -209,6 +211,7 @@ main .first-section{
 
 .subscriptions ul{
     font-size: .9rem;
+    padding-right: 1rem;
 }
 
 .subscriptions ul li{
@@ -216,12 +219,26 @@ main .first-section{
 }
 
 .subscriptions .button{
-    width: 100%;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.buy-now{
+    padding: 1rem 0 .5rem 1rem;
+}
+
+.subscription-highlight i{
+    color: #0061ff;
+}
+
+.subscriptions h4{
+    padding-top: 1rem;
 }
 
 .enterprise{
     width: 100%;
     margin-bottom: 50px;
+    border: 1px solid rgb(170, 170, 170);
 }
 
 div.enterprise div.info-subscription, div.enterprise div.call-to-action{
@@ -231,14 +248,25 @@ div.enterprise div.info-subscription, div.enterprise div.call-to-action{
 }
 /* RIPRENDERE QUI, STAVO CONTINUANDO LA SEZIONE ENTERPRISE, HO MESSO IN FLEX IL CONTENITORE, AGGIUNGERE TESTO */
 div.enterprise h3{
-    padding: 1rem 0;
+    padding-bottom: 1rem;
 }
-div.enterprise .info-subscription{
+div.enterprise .info-subscription > *{
     text-align: left;
+    padding: 1rem;
 }
 
 div.enterprise .contact-text{
-    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+}
+
+.call-to-action{
+    justify-content: flex-end;
+    align-items: start;
+}
+
+div.enterprise .call-to-action button{
+    margin-top: 1rem;
+    margin-right: 1rem;
 }
 
 .partner-container{
