@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    min-width: 1440px;
 }
 
 nav{
@@ -44,7 +45,8 @@ ul{
 }
 
 .flex{
-    display: flex
+    display: flex;
+    flex-shrink: 0;
 }
 
 .button{
@@ -468,7 +470,7 @@ div.logo img{
     font-size: 1.7rem;
 }
 
-
+/* FOOTER RULES */
 
 footer{
     width: 100%;
@@ -489,15 +491,20 @@ footer .container{
 
 .lists-container{
     width: 100%;
-    height: 300px;
-
-    border: 2px solid white;
     margin-bottom: 3rem;
 }
 
 .lists-container ul{
     flex-basis: calc(100% / 5);
-    border: 1px solid grey;
+}
+
+.lists-container h5{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+
+.lists-container li{
+    padding: .5rem 0;
 }
 
 
@@ -506,6 +513,10 @@ footer .container{
     color: gray;
 }
 
-.language-container span{
-    padding: 0 1rem;
+.language-container .fa-earth-europe{
+    margin-right: .2rem;
+}
+
+.language-container .fa-caret-up{
+    margin-left: .2rem;
 }
