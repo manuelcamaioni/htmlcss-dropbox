@@ -299,20 +299,37 @@ div.enterprise .call-to-action button{
     border: 1px solid black;
 }
 
+
+.operation-section h2{
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
 .operations{
     width: 100%;
 
     flex-wrap: wrap;
     margin-bottom: 50px;
+    justify-content: space-between;
 
 }
 
 .operation{
-    flex-basis: calc(100% / 3);
-
+    flex-basis: calc(100% / 3 - 2rem);
+    padding: .5rem 0;
     /* height: 300px; */
+}
 
-    border: 2px solid magenta;
+.description-operation{
+    padding: 2rem 0;
+}
+
+.operation h3{
+    padding: .5rem 0;
+}
+
+.operation p{
+    font-size: .9rem;
 }
 
 div.operation img{
@@ -326,6 +343,8 @@ div.operation img{
 
 .dropbox-business h2{
     padding: 2rem 0;
+    font-weight: 700;
+    font-size: 2.5rem;
 }
 
 
