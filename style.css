@@ -21,7 +21,7 @@ a{
     text-decoration: none;
 }
 
-.buy-now a{
+.buy-now a, .dropbox-business a{
     color:#0061ff;
     text-decoration: underline;
 }
@@ -259,14 +259,25 @@ div.enterprise .contact-text{
 .operation{
     flex-basis: calc(100% / 3);
 
-    height: 300px;
+    /* height: 300px; */
 
     border: 2px solid magenta;
 }
 
-.dropbox-business{
+div.operation img{
     width: 100%;
 }
+
+.dropbox-business{
+    width: 100%;
+    margin: 8rem 0;
+}
+
+.dropbox-business h2{
+    padding: 2rem 0;
+}
+
+
 
 .partners-logos{
     width: 100%;
