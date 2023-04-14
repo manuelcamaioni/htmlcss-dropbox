@@ -390,8 +390,10 @@ footer .container{
 
 
 .language-container{
-    height: 3rem;
-    line-height: 3rem;
+    padding: 1rem 0;
+    color: gray;
+}
 
-    border-top: 1px solid white;
+.language-container span{
+    padding: 0 1rem;
 }
