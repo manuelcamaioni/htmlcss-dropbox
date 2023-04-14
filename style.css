@@ -183,7 +183,7 @@ main .first-section{
 
 .singolo, .team, .azienda{
     flex-basis: calc(100% / 3 - 20px);
-    border: 1px solid black;
+    border: 1px solid rgb(170, 170, 170);
     padding: 0 1rem 1rem 1rem;
 }
 
@@ -192,13 +192,31 @@ main .first-section{
 }
 
 .subscriptions h3{
-    padding-top: 1rem;
+    padding: 2rem 0 1rem;
+}
+
+.subscriptions .price{
+    font-size: .9rem;
+    font-weight: bold;
+    padding-bottom: .6rem;
 }
 
 .type-subscription{
     padding: .5rem 0;
     text-align: center;
     border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+.subscriptions ul{
+    font-size: .9rem;
+}
+
+.subscriptions ul li{
+    padding: .5rem 0;
+}
+
+.subscriptions .button{
+    width: 100%;
 }
 
 .enterprise{
