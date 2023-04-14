@@ -222,24 +222,30 @@ div.enterprise .contact-text{
 
 .partner-container{
     width: 100%;
-    height: 500px;
 
     margin-bottom: 50px;
 }
 
 .partner-image-container{
     flex-basis: 60%;
-    height: 100%;
 
     border: 2px solid red;
     
 }
 
+.partner-image-container img{
+    width: 100%;
+    height: 100%;
+}
+
 .partner-description-container{
     flex-basis: 40%;
-    height: 100%;
-
     border: 2px solid red;
+}
+
+.partner-description-container button{
+    border: 1px solid black;
+    padding: .5rem 1.5rem;
 }
 
 .operations{
