@@ -317,6 +317,7 @@ div.enterprise .call-to-action button{
 .partner-description-container{
     flex-basis: 40%;
     padding: 1.5rem;
+    font-size: 1.3em;
 }
 
 .partner-description-container > *{
