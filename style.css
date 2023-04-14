@@ -278,16 +278,15 @@ div.operation img{
 }
 
 
-
 .partners-logos{
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
 }
 
 .logos-container{
    flex-basis: calc(100% / 3);
    flex-wrap: wrap;
-    height: 100%;
+    /* height: 100%; */
 
 
     border: 2px solid red;
@@ -295,15 +294,44 @@ div.operation img{
 
 .logo{
     flex-basis: calc(100% / 2);
-    height: 50%;
-
+    /* height: 50%; */
+    justify-content: center;
+    align-items: center;
     border: 2px solid greenyellow;
 }
+
+div.logo img{
+    width: 50%;
+    
+}
+
+.designit-container{
+    padding: 2rem 2rem 6rem;
+}
+
+.designit-container .separator{
+    padding: 1rem 0 2rem;
+}
+
+.designit-container img{
+    width: 65%;
+}
+
+.designit-container .quote{
+    padding-bottom: 3rem;
+}
+
+
+
 
 .free-trial{
     width: 100%;
     padding: 5rem 0;
     justify-content: space-around;
+}
+
+.free-trial h2{
+    color: #610830;
 }
 
 .frequently-asked{
