@@ -200,14 +200,24 @@ main .first-section{
 
 .enterprise{
     width: 100%;
-    height: 200px;
     margin-bottom: 50px;
 }
 
-.enterprise .info-subscription, .enterprise .call-to-action{
+div.enterprise div.info-subscription, div.enterprise div.call-to-action{
     flex-basis: 50%;
     padding: 0;
-    border: 1px solid magenta
+    
+}
+/* RIPRENDERE QUI, STAVO CONTINUANDO LA SEZIONE ENTERPRISE, HO MESSO IN FLEX IL CONTENITORE, AGGIUNGERE TESTO */
+div.enterprise h3{
+    padding: 1rem 0;
+}
+div.enterprise .info-subscription{
+    text-align: left;
+}
+
+div.enterprise .contact-text{
+    margin-bottom: 3rem;
 }
 
 .partner-container{
