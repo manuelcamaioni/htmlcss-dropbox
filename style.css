@@ -49,6 +49,7 @@ ul{
 
 .button{
     border: none;
+    padding: .7rem 1rem;
 }
 
 .lightblue-bg{
@@ -58,7 +59,7 @@ ul{
 .blue-button{
     color: white;
     background-color: #0061ff;
-    padding: .5rem 1rem;
+    
 }
 
 .white-button{
@@ -112,6 +113,12 @@ main .first-section{
     height: 600px;
 }
 
+.first-section .container{
+    position: relative;
+    top: 4rem;
+    overflow-y: visible;
+}
+
 .first-section .title-container{
     width: 100%;
     
@@ -120,7 +127,8 @@ main .first-section{
 }
 
 .title-container h1{
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: 800;
     
     padding: 1rem 5rem 1rem 0;
 }
@@ -133,15 +141,7 @@ main .first-section{
 .jumbo-paragraph-container .paragraph-container{
     flex-basis: 40%;
     height: 100%;
-    /* border: 2px solid magenta; */
 }
-
-/* .jumbo-paragraph-container .jumbo-container{
-
-    flex-basis: 60%;
-    height: 100%;
-    border: 2px solid magenta;
-} */
 
 .jumbo-container img{
     flex-basis: 60%;
@@ -150,22 +150,25 @@ main .first-section{
 
 .paragraph-container p{
     margin-bottom: 2rem;
+    font-size: .9rem;
 }
 
 .paragraph-container .blue-button{
     margin-bottom: 1rem;
-}
-
-.first-section{
-    position: relative;
+    display: block;
 }
 
 .paragraph-container i{
     position: absolute;
     
     left: 0;
+    bottom: 15%;
 }
 
+/* SECOND SECTION */
+.subscription-section label{
+    margin-right: 1.5rem;
+}
 .subscription-section h2{
     font-size: 2rem;
     padding: 2rem 0;
