@@ -569,3 +569,47 @@ div.overview-container, div.sector-container, div.usertype-container{
     list-style-type: none;
     left: -30px;
 }
+
+/* animation */
+.time-bar{
+    height: .3rem;
+    background-color: black;
+    position: absolute;
+    
+
+    animation-name: time-bar;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes time-bar{
+    0%{
+        
+        top: 0;
+        right: 100%;
+        left: 0;
+    }
+
+    50%{
+     
+        top: 0;
+        right: 50%;
+        left: 0;
+
+    }
+
+    75%{
+
+        top: 0;
+        right: 25%;
+        left: 0;
+    }
+
+    100%{
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+}
