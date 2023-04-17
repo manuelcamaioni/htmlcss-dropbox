@@ -46,7 +46,7 @@ ul{
 
 .flex{
     display: flex;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
 }
 
 .button{
@@ -114,13 +114,7 @@ ul{
     background-color: #ffd830;
 }
 /* GENERAL RULES */
-.nav-area{
-    height: 100%;
-}
-
-.nav-area div{
-    height: 100%;
-    flex-basis: auto;
+.nav-area .nav-item{
     padding: 0 1.5rem;
     align-items: center;
     justify-content: center;
@@ -520,15 +514,35 @@ footer .container{
     position: relative;
 }
 
+.blue-button:hover{
+    background-color: #438bff;
+} 
 header div.nav-item:hover{
     border-bottom: 2px solid black;
 }
 
-div.supporto-menu{
+.nav-item:hover .menu{
+    display: inline-block;
+    padding: .5rem 0;
+    z-index: 1;
+    position: absolute;
+}
+
+.menu{
     display: none;
     background-color: white;
-    padding: 0;
+}
 
+.menu li{
+    padding: .5rem 1rem;
+}
+
+div.supporto-menu{
+    background-color: white;
+}
+
+div.supporto-menu li{
+    padding: .5rem 1rem;
 }
 
 /* .supporto-menu ul{
@@ -536,11 +550,19 @@ div.supporto-menu{
 } */
 
 .support:hover .supporto-menu{
-    display: inline-block;
-    position: absolute;
-    bottom: -70px;
+    bottom: -85px;
+    width: 15vw;
 }
 
-.blue-button:hover{
-    background-color: #438bff;
+.office:hover .ufficio-menu{
+    bottom: -85px;
+    flex-basis:auto;
+}
+
+.why-dropbox:hover .perche-menu{
+    bottom: -138px;
+}
+
+div.overview-container, div.sector-container, div.usertype-container{
+    float: left;
 }
