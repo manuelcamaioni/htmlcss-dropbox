@@ -560,9 +560,9 @@ div.supporto-menu li{
 }
 
 .why-dropbox:hover .perche-menu{
-    bottom: -138px;
+    bottom: -78px;
 }
 
 div.overview-container, div.sector-container, div.usertype-container{
-    float: left;
+    display: inline-block;
 }
