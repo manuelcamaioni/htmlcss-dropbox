@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    min-width: 1440px;
+    min-width: 100%;
 }
 
 nav{
@@ -531,6 +531,7 @@ header div.nav-item:hover{
 .menu{
     display: none;
     background-color: white;
+    width: 15vw;
 }
 
 .menu li{
@@ -540,14 +541,6 @@ header div.nav-item:hover{
 div.supporto-menu{
     background-color: white;
 }
-
-div.supporto-menu li{
-    padding: .5rem 1rem;
-}
-
-/* .supporto-menu ul{
-    padding: 1rem 2rem;
-} */
 
 .support:hover .supporto-menu{
     bottom: -85px;
@@ -559,10 +552,20 @@ div.supporto-menu li{
     flex-basis:auto;
 }
 
-.why-dropbox:hover .perche-menu{
-    bottom: -78px;
+.why-dropbox:hover div.perche-menu{
+    bottom: -222px;
+    min-width: 534px;
+    left: -35px;
+    list-style-type: none;
 }
 
 div.overview-container, div.sector-container, div.usertype-container{
-    display: inline-block;
+    padding: 0 1rem;
+}
+
+.functions:hover div.funzioni{
+   bottom: -221px;
+    min-width: 460px;
+    list-style-type: none;
+    left: -30px;
 }
