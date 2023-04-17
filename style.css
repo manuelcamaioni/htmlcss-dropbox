@@ -513,3 +513,33 @@ footer .container{
 .language-container .fa-caret-up{
     margin-left: .2rem;
 }
+
+/* HOVER SELECTORS */
+
+.relative{
+    position: relative;
+}
+
+header div.nav-item:hover{
+    border-bottom: 2px solid black;
+}
+
+div.supporto-menu{
+    display: none;
+    background-color: white;
+
+}
+
+/* .supporto-menu ul{
+    padding: 1rem 2rem;
+} */
+
+.support:hover .supporto-menu{
+    display: inline-block;
+    position: absolute;
+    bottom: -70px;
+}
+
+.blue-button:hover{
+    background-color: #438bff;
+}
