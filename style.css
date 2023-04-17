@@ -581,7 +581,6 @@ div.overview-container, div.sector-container, div.usertype-container{
     animation-duration: 6s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-direction: normal;
 }
 
 @keyframes time-bar{
@@ -592,20 +591,6 @@ div.overview-container, div.sector-container, div.usertype-container{
         left: 0;
     }
 
-    50%{
-     
-        top: 0;
-        right: 50%;
-        left: 0;
-
-    }
-
-    75%{
-
-        top: 0;
-        right: 25%;
-        left: 0;
-    }
 
     100%{
         top: 0;
