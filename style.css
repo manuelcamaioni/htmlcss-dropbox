@@ -527,6 +527,7 @@ header div.nav-item:hover{
 div.supporto-menu{
     display: none;
     background-color: white;
+    padding: 0;
 
 }
 
