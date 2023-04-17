@@ -391,6 +391,7 @@ div.operation img{
     flex-basis: calc(100% / 2);
     justify-content: center;
     align-items: center;
+    height: 50%;
 }
 
 div.logo img{
