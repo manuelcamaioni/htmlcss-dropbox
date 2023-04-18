@@ -378,8 +378,9 @@ div.operation img{
 .logos-container{
    flex-basis: calc(100% / 3);
    flex-wrap: wrap;
+   z-index: 1;
 }
-
+ 
 .logo{
     flex-basis: calc(100% / 2);
     justify-content: center;
@@ -391,21 +392,24 @@ div.logo img{
     width: 50%;
 }
 
+.partners-section{
+    font-size: .9rem;
+}
 .designit-container{
     padding: 2rem 2rem 6rem;
     background-color: #f5f5f5;
-    font-size: .9rem;
+    z-index: 0;
 }
 
-.designit-container .separator{
+.partners-section .separator{
     padding: 1rem 0 2rem;
 }
 
-.designit-container img{
+.partners-section img{
     width: 65%;
 }
 
-.designit-container .quote{
+.partners-section .quote{
     padding-bottom: 3rem;
 }
 
@@ -585,7 +589,7 @@ div.overview-container, div.sector-container, div.usertype-container{
     position: absolute;
     
     animation-name: time-bar;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -605,36 +609,90 @@ div.overview-container, div.sector-container, div.usertype-container{
     }
 }
 
-.block-to-shift{
+div.block-to-shift{
     width: 100%;
+    z-index: 0;
 
     animation-name: shift-out;
-    animation-duration: 6s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in;
 }
+
+.logos-container div.relative{
+    width: 100%;
+}
+
 
 @keyframes shift-out{
     0%{
-        right: 0;
+       transform: translateX(0);
     }
 
-    80%{
+    
+    50%{
+        transform: translateX(0);
         opacity: 1;
     }
 
-    82%{
-        opacity: .4;
-        right: 0;
+    55%{
+        opacity: .5;
     }
 
-    90%{
+    60%{
+        transform: translateX(-120%);
         opacity: 0;
-        right: 20px;
     }
 
     100%{
-        
+        transform: translateX(-120%);
         opacity: 0;
     }
 }
+
+.absolute{
+    position: absolute;
+}
+.asu img{
+    width: 35%;
+}
+
+.prova{
+    width: 100%;
+    left: 120%;
+    top: 0;
+
+    animation-name: shift-in;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+/* .test{
+    position: absolute;
+    right: -100%;
+    width: calc(100% / 3);
+    padding: 2rem 2rem 6rem;
+    opacity: 1;
+    animation-name: shift-in;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+} */
+
+@keyframes shift-in{
+    0%{
+        opacity: 0;
+    }
+
+    33%{
+        left: 120%;
+        top: 0;
+    }
+
+    100%{
+        opacity: 1;
+        left: 0;
+    }
+}  
+
+
