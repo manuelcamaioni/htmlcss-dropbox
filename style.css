@@ -471,6 +471,14 @@ footer{
     padding: 6rem 0;
 }
 
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
 footer .container{
     align-items: center;  
     height: 100%;
@@ -493,6 +501,8 @@ footer .container{
 .lists-container li{
     padding: .5rem 0;
 }
+
+
 
 
 .language-container{
