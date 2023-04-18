@@ -516,8 +516,14 @@ footer .container{
 
 .blue-button:hover{
     background-color: #438bff;
-} 
-header div.nav-item:hover{
+}
+
+.white-button:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+header div.nav-item:hover
+:not(.nav-item:last-child){
     border-bottom: 2px solid black;
 }
 
