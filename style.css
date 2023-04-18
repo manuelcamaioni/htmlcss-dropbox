@@ -46,7 +46,6 @@ ul{
 
 .flex{
     display: flex;
-    /* flex-shrink: 0; */
 }
 
 .button{
@@ -400,7 +399,6 @@ div.logo img{
 
 .designit-container .separator{
     padding: 1rem 0 2rem;
-    color: grey;
 }
 
 .designit-container img{
@@ -461,14 +459,11 @@ div.logo img{
 
 footer{
     width: 100%;
-    
+    color: white;
     background-color: black;
+    padding: 6rem 0;
 
     align-items: center;
-
-    color: white;
-
-    padding: 6rem 0;
 }
 
 footer a{
@@ -501,9 +496,6 @@ footer .container{
 .lists-container li{
     padding: .5rem 0;
 }
-
-
-
 
 .language-container{
     padding: 1rem 0;
@@ -592,7 +584,6 @@ div.overview-container, div.sector-container, div.usertype-container{
     background-color: black;
     position: absolute;
     
-
     animation-name: time-bar;
     animation-duration: 6s;
     animation-timing-function: linear;
@@ -606,7 +597,6 @@ div.overview-container, div.sector-container, div.usertype-container{
         right: 100%;
         left: 0;
     }
-
 
     100%{
         top: 0;
