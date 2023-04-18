@@ -604,3 +604,37 @@ div.overview-container, div.sector-container, div.usertype-container{
         left: 0;
     }
 }
+
+.block-to-shift{
+    width: 100%;
+
+    animation-name: shift-out;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes shift-out{
+    0%{
+        right: 0;
+    }
+
+    80%{
+        opacity: 1;
+    }
+
+    82%{
+        opacity: .4;
+        right: 0;
+    }
+
+    90%{
+        opacity: 0;
+        right: 20px;
+    }
+
+    100%{
+        
+        opacity: 0;
+    }
+}
